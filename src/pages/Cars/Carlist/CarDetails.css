@@ -1,0 +1,28 @@
+.car-details {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #262626;
+  background-color: #e5e5e5;
+  width: 100%; /* 1200px */
+  height: auto;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.car-details-container {
+  border: 1px solid #b3b3b3;
+  border-radius: 10px;
+}
+
+.car-details-columns {
+  display: flex;
+  justify-content: space-between;
+  /* gap: 5px; */
+}
+
+.car-details-column {
+  width: 50%;
+}
+
+.car-details-img {
+  cursor: pointer;
+  width: 80%;
+}

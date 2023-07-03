@@ -1,0 +1,49 @@
+.carlist {
+  color: white;
+}
+
+.carlist-welcome {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+
+.carlist-container {
+  background-color: #e5e5e5;
+  width: 1400px;
+  height: 650px;
+  border-radius: 12px;
+  margin-left: 250px;
+  border: 1px solid black;
+}
+
+.box {
+  font-family: Helvetica, sans-serif;
+  background-color: white;
+  color: black;
+  height: 95px;
+  width: 95px;
+  border-radius: 12px;
+  border: 1px solid #000;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.box:hover {
+  background-color: #f0f0f0;
+}
+
+.grid {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 10px;
+  margin-left: 10px;
+  padding: 10px 0px 0px 0px;
+}

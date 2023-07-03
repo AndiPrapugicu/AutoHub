@@ -1,0 +1,19 @@
+.home {
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.autohub-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.description {
+  margin: 50px;
+  font-size: 36px;
+}
